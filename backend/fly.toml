@@ -1,0 +1,10 @@
+app = "botbetmaster-api"
+primary_region = "gru"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+
+[env]
+  DATABASE_URL = "@database_url"
+  NODE_ENV = "production"
